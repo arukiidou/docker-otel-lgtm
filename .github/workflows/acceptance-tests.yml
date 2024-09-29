@@ -11,8 +11,8 @@ jobs:
       - name: Check out oats
         uses: actions/checkout@v4
         with:
-          repository: grafana/oats
-          ref: 4ad43adebb426c61b3cf47d51b6e1d14f56059b3
+          repository: arukiidou/oats
+          ref: da64b972780f41f420f51b6201df7076c9e3a4cc
           path: oats
       - name: Set up Go
         uses: actions/setup-go@v5
